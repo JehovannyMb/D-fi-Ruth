@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(white, blue);
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+}
+header{
+    height: 20em;
+}
+#tete{
+   text-shadow: 1em 1em 0.5em black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: first baseline;
+    /* border: 0.1em solid black; */
+    /* width: 10em;
+    height: 10em; */
+    /* background-image: url(Images/JML.jpg); */
+}
+.container img{
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    box-shadow: 0.5em 0.5em 0.5em;
+}
+.container img:hover{
+    filter: brightness(50%);
+}
+.container button{
+    color: red;
+    border-radius: 20%;
+    background-color: blueviolet;
+    width: 5em;
+    height: 2em;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+p{
+    text-align: center;
+}
